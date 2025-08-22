@@ -115,7 +115,7 @@ Waste Scan → Point Calculation → User Account Update → Reward Redemption
 
 1. Clone the repository
 bash
-git clone https://github.com/your-username/safemedisposal.git
+git clone https://github.com/LabhanshiBhatia/SafeMediDisposal_1.git
 cd safemedisposal
 
 
@@ -146,5 +146,6 @@ open index.html
 
 
 The application will be available at http://localhost:3000
+
 
 
