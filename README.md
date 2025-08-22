@@ -25,48 +25,6 @@ India generates approximately *710 tonnes of biomedical waste daily*, a signific
 - *JWT* - Secure user authentication
 - *Roboflow AI API* - Medical waste detection and classification
 
-## Setup
-
-### Prerequisites
-- Node.js (v14 or higher)
-- MongoDB
-- Git
-
-### Installation
-
-1. Clone the repository
-bash
-git clone https://github.com/your-username/safemedisposal.git
-cd safemedisposal
-
-
-2. Install dependencies
-bash
-npm install
-
-
-3. Set up environment variables
-bash
-# Create .env file
-cp .env.example .env
-
-# Configure your environment variables
-MONGODB_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-ROBOFLOW_API_KEY=your_roboflow_api_key
-
-
-4. Start the development server
-bash
-npm start
-
-
-5. For frontend-only development
-bash
-open index.html
-
-
-The application will be available at http://localhost:3000
 
 ## Features
 
@@ -145,3 +103,48 @@ Waste Scan → Point Calculation → User Account Update → Reward Redemption
 - Social media integration for broader outreach
 
 *Impact Goals*: 40% reduction in hospital waste management costs, 100% waste traceability, enhanced community engagement, policy compliance support, and environmental protection through proper disposal practices.
+
+## Setup
+
+### Prerequisites
+- Node.js (v14 or higher)
+- MongoDB
+- Git
+
+### Installation
+
+1. Clone the repository
+bash
+git clone https://github.com/your-username/safemedisposal.git
+cd safemedisposal
+
+
+2. Install dependencies
+bash
+npm install
+
+
+3. Set up environment variables
+bash
+# Create .env file
+cp .env.example .env
+
+# Configure your environment variables
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+ROBOFLOW_API_KEY=your_roboflow_api_key
+
+
+4. Start the development server
+bash
+npm start
+
+
+5. For frontend-only development
+bash
+open index.html
+
+
+The application will be available at http://localhost:3000
+
+
